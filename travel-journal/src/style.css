@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* To avoid padding/margin issues */
+}
+
+body {
+    margin: 0;
+}
+
+.head {
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.ucon {
+    display: flex;
+    justify-content: center; /* Centers the .mcontainer horizontally */    /* Centers the .mcontainer vertically */          /* Full viewport height for vertical centering */
+    padding: 10px;
+}
+
+.mcontainer {
+    width: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
